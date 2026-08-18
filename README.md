@@ -497,27 +497,7 @@ langbuddy/
 ├── pubspec.yaml
 ├── pubspec.lock
 └── analysis_options.yaml
-🔄 Application Flow
 
-The general user flow is:
-
-Open LangBuddy
-      ↓
-Select Language
-      ↓
-Home Screen
-      ↓
- ┌────┼────┬────┬────┬────┐
- ↓    ↓    ↓    ↓    ↓
-Words Phrases Search Quiz Games
- ↓    ↓    ↓    ↓    ↓
-Learn Listen Search Test Play
-      │
-      ↓
-  Track Progress
-      │
-      ↓
- Local Storage
 🎯 Project Objectives
 
 The main objectives of LangBuddy are:
