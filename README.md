@@ -49,7 +49,6 @@ Each vocabulary item can contain:
 
 ### Example
 
-```text
 English: Apple
 French: Pomme
 Pronunciation: pohm
