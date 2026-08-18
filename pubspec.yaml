@@ -1,0 +1,66 @@
+name: langbuddy_language_learning_application
+description: A Flutter language learning helper app with no login
+publish_to: "none" # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  confetti: ^0.6.0
+
+  package_info_plus: ^9.0.0
+
+  # Text-to-Speech
+  flutter_tts: ^3.8.0
+
+  # Local storage (offline progress)
+  shared_preferences: ^2.1.1
+
+  # iOS style icons (required by Flutter)
+  cupertino_icons: ^1.0.6
+  speech_to_text: ^7.3.0
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+  flutter_launcher_icons: ^0.11.0
+
+# ----------- Flutter Launcher Icons config -----------
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/logo/app_icon.png"
+  image_path_ios: "assets/logo/app_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logo/app_icon.png"
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/logo/app_icon.png"
+  windows:
+    generate: true
+    image_path: "assets/logo/app_icon.png"
+  macos:
+    generate: true
+    image_path: "assets/logo/app_icon.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo/langbuddy_logo.png
+    - assets/data/vocabulary.json
+
